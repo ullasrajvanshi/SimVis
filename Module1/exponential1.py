@@ -39,9 +39,8 @@ Nx = histc(x, np.arange(0, 50, binsize))
 plt.bar(np.arange(0, 50, binsize), Nx[0] / (N_samples * binsize))
 plt.xlabel('x')
 plt.ylabel('Density')
-plt.title('Number of samples = %i' %N_samples)
+plt.title('Number of samples = %i' % N_samples)
 
-#%% Computing mean and variance
+# %% Computing mean and variance
 x.mean()
 x.var()
-
